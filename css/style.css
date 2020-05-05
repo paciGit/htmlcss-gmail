@@ -1,0 +1,93 @@
+/* Corpo totale pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/sfondo.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Intestazione pagina */
+
+.logo {
+  width: 120px;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 25px;
+  display: inline;
+}
+
+/* Ricerca */
+
+#contatore {
+   color: red;
+   background-color: lightblue;
+   border-radius: 10px;
+   padding: 5px;
+}
+
+/* Corpo email */
+
+.right {
+  display: inline-block;
+  width: 25%;
+}
+
+.left {
+  display: inline-block;
+  width: 60%;
+}
+
+.subject {
+  color: black;
+}
+
+.body {
+  color: grey;
+}
+
+.read {
+background-color: lightgrey;
+}
+
+.unread {
+  background-color: white;
+}
+
+.star {
+  color: black;
+}
+
+/* Crediti */
+
+footer {
+  text-align: center;
+}
+
+#foot {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Stili Comuni */
+
+footer, .logo-text, h2 {
+  color: white;
+}
+
+header, h2, footer, .container-email {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
